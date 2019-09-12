@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CircularPageControll_Example' do
+  pod 'CircularPageControll', :path => '../'
+
+  target 'CircularPageControll_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
