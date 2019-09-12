@@ -11,6 +11,8 @@
 		4C6A27935440CCF10A011DC9B66C8F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		50CEE020002115D71107E3F209401596 /* Pods-CircularPageControll_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358F5B885F87C3A48D3F56189CC30F5 /* Pods-CircularPageControll_Tests-dummy.m */; };
 		55A4586D232A7B9B00FBA2ED /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4586C232A7B9B00FBA2ED /* CustomView.swift */; };
+		55A4586E232ACC6B00FBA2ED /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4586C232A7B9B00FBA2ED /* CustomView.swift */; };
+		55A4586F232ACC6D00FBA2ED /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4586C232A7B9B00FBA2ED /* CustomView.swift */; };
 		62E426D79B9C5D31DFF3CA26DEA46A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		665209AD5F674B33233F7366FE7705E4 /* Pods-CircularPageControll_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B49D2EB64337BF87EA614D714EE142CC /* Pods-CircularPageControll_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		721D0B75894F1D2DF8F9157546510F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -378,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8EF57448235E4699C563BC69177383 /* Pods-CircularPageControll_Example-dummy.m in Sources */,
+				55A4586E232ACC6B00FBA2ED /* CustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CEE020002115D71107E3F209401596 /* Pods-CircularPageControll_Tests-dummy.m in Sources */,
+				55A4586F232ACC6D00FBA2ED /* CustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
