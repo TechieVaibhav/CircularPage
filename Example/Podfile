@@ -1,5 +1,6 @@
-Pod Version `12.2`
-use_frameworks!
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
 
 target 'CircularPageControll_Example' do
   pod 'CircularPageControll', :path => '../'
