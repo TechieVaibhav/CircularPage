@@ -45,7 +45,7 @@
 		76E7599B0EBB33BB3608A54E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		945EC19FE8AD900ADF4B63E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F186ABECB22216A2CA29865 /* Pods-CircularPageControll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularPageControll_Example.debug.xcconfig"; path = "Target Support Files/Pods-CircularPageControll_Example/Pods-CircularPageControll_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FA34CA2085F92151451616E8 /* CircularPageControll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CircularPageControll.podspec; path = ../CircularPageControll.podspec; sourceTree = "<group>"; };
+		FA34CA2085F92151451616E8 /* CircularPageControll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CircularPageControll.podspec; path = ../CircularPageControll.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF1C825C2BAF435144167036 /* Pods-CircularPageControll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularPageControll_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CircularPageControll_Tests/Pods-CircularPageControll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
