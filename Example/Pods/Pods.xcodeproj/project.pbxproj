@@ -10,11 +10,11 @@
 		43C6F69ECBCE05627949351A57CD303A /* CircularPageControll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C31C925D9D3675C047E64BECE53A2 /* CircularPageControll-dummy.m */; };
 		4C6A27935440CCF10A011DC9B66C8F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		50CEE020002115D71107E3F209401596 /* Pods-CircularPageControll_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358F5B885F87C3A48D3F56189CC30F5 /* Pods-CircularPageControll_Tests-dummy.m */; };
+		55A4586D232A7B9B00FBA2ED /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A4586C232A7B9B00FBA2ED /* CustomView.swift */; };
 		62E426D79B9C5D31DFF3CA26DEA46A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		665209AD5F674B33233F7366FE7705E4 /* Pods-CircularPageControll_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B49D2EB64337BF87EA614D714EE142CC /* Pods-CircularPageControll_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		721D0B75894F1D2DF8F9157546510F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9F8EF57448235E4699C563BC69177383 /* Pods-CircularPageControll_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8802347EAE5828CA4DBF1BFD0B6BD17D /* Pods-CircularPageControll_Example-dummy.m */; };
-		A893C161D5C361B640FC3EC00CBBEF8E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D998B9F34A0DEF4EEA39C158D7D769 /* ReplaceMe.swift */; };
 		D5E413B8A95FBE01FB564E88EB377B03 /* CircularPageControll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC0618B46192E6A53B475803DDC4059 /* CircularPageControll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E34F3E41003A23B46876FC3313715335 /* Pods-CircularPageControll_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 691614401081D978C6577BF6C87194C5 /* Pods-CircularPageControll_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -43,32 +43,32 @@
 		0B920D0E70DB37E98B13DA5D864D4639 /* Pods-CircularPageControll_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircularPageControll_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0BBCFEDE8CE571DC1AF06D396BF16897 /* Pods-CircularPageControll_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircularPageControll_Example.modulemap"; sourceTree = "<group>"; };
 		0BC0618B46192E6A53B475803DDC4059 /* CircularPageControll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularPageControll-umbrella.h"; sourceTree = "<group>"; };
-		1A7C736B9E72543E7AA583DF9E235315 /* Pods_CircularPageControll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CircularPageControll_Example.framework; path = "Pods-CircularPageControll_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21D998B9F34A0DEF4EEA39C158D7D769 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CircularPageControll/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		2957A2A3F88C1C57C4050F88FD9BFAFF /* CircularPageControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircularPageControll.framework; path = CircularPageControll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7C736B9E72543E7AA583DF9E235315 /* Pods_CircularPageControll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularPageControll_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2957A2A3F88C1C57C4050F88FD9BFAFF /* CircularPageControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularPageControll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3419BCC9863D514CF793FB47AE67D6E4 /* CircularPageControll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircularPageControll-Info.plist"; sourceTree = "<group>"; };
 		399C5F79394396FE3536F85DDD02653E /* CircularPageControll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircularPageControll.modulemap; sourceTree = "<group>"; };
 		424491C68F751ECB7DBB796C656725DE /* CircularPageControll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularPageControll-prefix.pch"; sourceTree = "<group>"; };
-		516141417D5BA30874F0EA4AE8AD2564 /* CircularPageControll.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CircularPageControll.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		516141417D5BA30874F0EA4AE8AD2564 /* CircularPageControll.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CircularPageControll.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5358F5B885F87C3A48D3F56189CC30F5 /* Pods-CircularPageControll_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircularPageControll_Tests-dummy.m"; sourceTree = "<group>"; };
+		55A4586C232A7B9B00FBA2ED /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		5F8C31C925D9D3675C047E64BECE53A2 /* CircularPageControll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircularPageControll-dummy.m"; sourceTree = "<group>"; };
 		691614401081D978C6577BF6C87194C5 /* Pods-CircularPageControll_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircularPageControll_Example-umbrella.h"; sourceTree = "<group>"; };
 		69CA59C1299EBF28E1E5CC4C5D706E46 /* Pods-CircularPageControll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6BF098612FC0CEFF38CECE06AC6DA01B /* CircularPageControll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircularPageControll.xcconfig; sourceTree = "<group>"; };
 		6E25B528B878556A1276283470DBD905 /* Pods-CircularPageControll_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularPageControll_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7008BD64A2E2E426E0502CCF88095BB0 /* Pods-CircularPageControll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7C80D1E91AFD3B9DD664B937531E52AD /* Pods_CircularPageControll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CircularPageControll_Tests.framework; path = "Pods-CircularPageControll_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C80D1E91AFD3B9DD664B937531E52AD /* Pods_CircularPageControll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularPageControll_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8802347EAE5828CA4DBF1BFD0B6BD17D /* Pods-CircularPageControll_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircularPageControll_Example-dummy.m"; sourceTree = "<group>"; };
 		883ED55AB8FE91C2B74D5D64F0F03796 /* Pods-CircularPageControll_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularPageControll_Example-Info.plist"; sourceTree = "<group>"; };
 		8E850DC1542C1DE593E71AF529BEBD34 /* Pods-CircularPageControll_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircularPageControll_Tests.modulemap"; sourceTree = "<group>"; };
 		996338C5D669338B8BF04AA04D0E8928 /* Pods-CircularPageControll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2C2CFDE9FA97C294B8FA7B4A3765C3 /* Pods-CircularPageControll_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularPageControll_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B49D2EB64337BF87EA614D714EE142CC /* Pods-CircularPageControll_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircularPageControll_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CB1A3CBB69372A913ECC4EEC55467C4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB1A3CBB69372A913ECC4EEC55467C4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F2094EFCAC85DDE8DC783618BA42FE2D /* Pods-CircularPageControll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F71CA61B88B192584EFD32E3B4685C77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F71CA61B88B192584EFD32E3B4685C77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +124,14 @@
 			);
 			name = "Pods-CircularPageControll_Example";
 			path = "Target Support Files/Pods-CircularPageControll_Example";
+			sourceTree = "<group>";
+		};
+		55A4586B232A7B5B00FBA2ED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				55A4586C232A7B9B00FBA2ED /* CustomView.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 		86FED56593F20B8BBF0BFB115FAD49A0 /* Development Pods */ = {
@@ -213,7 +221,7 @@
 		F8E057ED3AE9B27AEFFB3FA943913E9C /* CircularPageControll */ = {
 			isa = PBXGroup;
 			children = (
-				21D998B9F34A0DEF4EEA39C158D7D769 /* ReplaceMe.swift */,
+				55A4586B232A7B5B00FBA2ED /* Source */,
 				1C282236164741BC9553EF0C3EBCE279 /* Pod */,
 				B9460C8CD5A7FD364B77F0A5B5F59680 /* Support Files */,
 			);
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9802BD9869FCE44BA392729A96D7635A = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C6F69ECBCE05627949351A57CD303A /* CircularPageControll-dummy.m in Sources */,
-				A893C161D5C361B640FC3EC00CBBEF8E /* ReplaceMe.swift in Sources */,
+				55A4586D232A7B9B00FBA2ED /* CustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6BF098612FC0CEFF38CECE06AC6DA01B /* CircularPageControll.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,6 +508,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -554,8 +569,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -629,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6BF098612FC0CEFF38CECE06AC6DA01B /* CircularPageControll.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CircularPageControll
 
 class ViewController: UIViewController {
 
