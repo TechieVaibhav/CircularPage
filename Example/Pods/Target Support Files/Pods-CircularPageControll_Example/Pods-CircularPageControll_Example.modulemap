@@ -1,0 +1,6 @@
+framework module Pods_CircularPageControll_Example {
+  umbrella header "Pods-CircularPageControll_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

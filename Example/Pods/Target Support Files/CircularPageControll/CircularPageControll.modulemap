@@ -1,0 +1,6 @@
+framework module CircularPageControll {
+  umbrella header "CircularPageControll-umbrella.h"
+
+  export *
+  module * { export * }
+}

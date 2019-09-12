@@ -1,0 +1,16 @@
+PODS:
+  - CircularPageControll (0.1.0)
+
+DEPENDENCIES:
+  - CircularPageControll (from `../`)
+
+EXTERNAL SOURCES:
+  CircularPageControll:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CircularPageControll: f2566fd6af0f90c191a0c9feec1aa46175959e4c
+
+PODFILE CHECKSUM: 20a30c165febcfde94453384cf42c6a623147ce1
+
+COCOAPODS: 1.7.3
