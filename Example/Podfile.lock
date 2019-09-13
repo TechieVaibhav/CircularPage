@@ -1,5 +1,5 @@
 PODS:
-  - CircularPageControll (0.1.0)
+  - CircularPageControll (1.0.1)
 
 DEPENDENCIES:
   - CircularPageControll (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CircularPageControll: f2566fd6af0f90c191a0c9feec1aa46175959e4c
+  CircularPageControll: f9a2f58435b27786bffa30a14ec34ece63599015
 
-PODFILE CHECKSUM: 20a30c165febcfde94453384cf42c6a623147ce1
+PODFILE CHECKSUM: 9998832a934629125d24cff66a8bede712b87eb7
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.0.beta.2

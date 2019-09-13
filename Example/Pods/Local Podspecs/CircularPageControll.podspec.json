@@ -1,9 +1,9 @@
 {
   "name": "CircularPageControll",
   "version": "1.0.1",
-  "summary": "A short description of CircularPageControll.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/TechieVaibhav/CircularPage.git",
+  "summary": "This is a circular page controll which implemented by UIPageControll.",
+  "description": "'This is a circular page controll which implemented by UIPageControll.'",
+  "homepage": "https://github.com/TechieVaibhav/CircularPage",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,14 @@
   },
   "source": {
     "git": "https://github.com/TechieVaibhav/CircularPage.git",
-    "tag": "1.0.1"
+    "commit": "2c9000e0572e2de6314580268b0a884dabcc16f9",
+    "tag": "1.0.1",
+    "branch": "master"
   },
+  "swift_versions": "4.2",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Soucre/**/*"
+  "source_files": "Source/*.swift",
+  "swift_version": "4.2"
 }

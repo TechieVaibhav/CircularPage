@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27977F7F4A50BDAC899D8245 /* Pods_CircularPageControll_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83CB08FCC45C9FCCBFC909 /* Pods_CircularPageControll_Tests.framework */; };
-		3D8137164A90F9577A31223C /* Pods_CircularPageControll_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327B2608E6CC86840FEB426D /* Pods_CircularPageControll_Example.framework */; };
+		1121B06BC094820BA8737520 /* libPods-CircularPageControll_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0A15BC5001086B59F0DD58 /* libPods-CircularPageControll_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		F1DB170486517DCC93BC105C /* libPods-CircularPageControll_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 395D50F9014623884D1E0DB2 /* libPods-CircularPageControll_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		327B2608E6CC86840FEB426D /* Pods_CircularPageControll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularPageControll_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0A15BC5001086B59F0DD58 /* libPods-CircularPageControll_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircularPageControll_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		395D50F9014623884D1E0DB2 /* libPods-CircularPageControll_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircularPageControll_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A40DB6236C0246D13585274 /* Pods-CircularPageControll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularPageControll_Tests.release.xcconfig"; path = "Target Support Files/Pods-CircularPageControll_Tests/Pods-CircularPageControll_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4E83CB08FCC45C9FCCBFC909 /* Pods_CircularPageControll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularPageControll_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CircularPageControll_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularPageControll_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8137164A90F9577A31223C /* Pods_CircularPageControll_Example.framework in Frameworks */,
+				F1DB170486517DCC93BC105C /* libPods-CircularPageControll_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27977F7F4A50BDAC899D8245 /* Pods_CircularPageControll_Tests.framework in Frameworks */,
+				1121B06BC094820BA8737520 /* libPods-CircularPageControll_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		D2093AB02E549F5931B58739 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				327B2608E6CC86840FEB426D /* Pods_CircularPageControll_Example.framework */,
-				4E83CB08FCC45C9FCCBFC909 /* Pods_CircularPageControll_Tests.framework */,
+				395D50F9014623884D1E0DB2 /* libPods-CircularPageControll_Example.a */,
+				2C0A15BC5001086B59F0DD58 /* libPods-CircularPageControll_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9CAE20ECA3A0DE05BFC673D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,24 +281,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CAE20ECA3A0DE05BFC673D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CircularPageControll_Example/Pods-CircularPageControll_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CircularPageControll/CircularPageControll.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircularPageControll.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CircularPageControll_Example/Pods-CircularPageControll_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D52725F7B28A44B3C9EB755D /* [CP] Check Pods Manifest.lock */ = {
