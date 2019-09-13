@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vaibhav' => 'vaibhav.sharma.jp@gmail.com' }
-  s.source           = { :git => 'https://github.com/TechieVaibhav/CircularPage.git', :commit => "2c9000e0572e2de6314580268b0a884dabcc16f9",  :tag => s.version.to_s ,:branch => "master"}
+  s.source           = { :git => 'https://github.com/TechieVaibhav/CircularPage.git',   :tag => s.version.to_s ,:branch => "master"}
   s.swift_versions = '4.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.requires_arc = true
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #s.source_files = 'ARCKit/Classes/*'
   s.source_files = 'Source/*.swift'
   
-  
+  #:commit => "2c9000e0572e2de6314580268b0a884dabcc16f9",
   
   # s.resource_bundles = {
   #   'CircularPageControll' => ['CircularPageControll/Assets/*.png']
