@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CircularPageControll
 
 [![CI Status](https://img.shields.io/travis/vaibhav/CircularPageControll.svg?style=flat)](https://travis-ci.org/vaibhav/CircularPageControll)
@@ -30,4 +30,4 @@ vaibhav, vaibhav.sharma.jp@gmail.com
 CircularPageControll is available under the MIT license. See the LICENSE file for more info.
 =======
 # CircularPage
->>>>>>> 5c159153ea631776c9622ece51273da519129c2a
+
