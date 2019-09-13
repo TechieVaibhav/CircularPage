@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/TechieVaibhav/CircularPage.git', :commit => "2c9000e0572e2de6314580268b0a884dabcc16f9",  :tag => s.version.to_s ,:branch => "master"}
   s.swift_versions = '4.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.requires_arc = true
   s.ios.deployment_target = '9.0'
   #s.source_files = 'ARCKit/Classes/*'
   s.source_files = 'Source/*.swift'
