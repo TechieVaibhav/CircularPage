@@ -128,12 +128,12 @@
 			path = "Target Support Files/Pods-CircularPageControll_Example";
 			sourceTree = "<group>";
 		};
-		55A4586B232A7B5B00FBA2ED /* Source */ = {
+		55A45870232B5BB100FBA2ED /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				55A4586C232A7B9B00FBA2ED /* CustomView.swift */,
 			);
-			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		86FED56593F20B8BBF0BFB115FAD49A0 /* Development Pods */ = {
@@ -223,7 +223,7 @@
 		F8E057ED3AE9B27AEFFB3FA943913E9C /* CircularPageControll */ = {
 			isa = PBXGroup;
 			children = (
-				55A4586B232A7B5B00FBA2ED /* Source */,
+				55A45870232B5BB100FBA2ED /* Source */,
 				1C282236164741BC9553EF0C3EBCE279 /* Pod */,
 				B9460C8CD5A7FD364B77F0A5B5F59680 /* Support Files */,
 			);
