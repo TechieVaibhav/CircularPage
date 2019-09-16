@@ -1,6 +1,6 @@
 {
   "name": "CircularPageControll",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "summary": "This is a circular page controll which implemented by UIPageControll.",
   "description": "'This is a circular page controll which implemented by UIPageControll.'",
   "homepage": "https://github.com/TechieVaibhav/CircularPage",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TechieVaibhav/CircularPage.git",
-    "tag": "1.0.4",
+    "tag": "1.0.5",
     "branch": "master"
   },
   "swift_versions": "4.2",
