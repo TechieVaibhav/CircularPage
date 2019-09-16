@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31D7D0131A4FB26258D3DA1D9E537C6B /* NewCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF59F223D4F7570D16D2AAD7AD711A1 /* NewCustomView.swift */; };
 		774C0910872BBB868B6B7698DE1BD0B3 /* CircularPageControll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E4EE0F9A30C7A342883A046D4A991 /* CircularPageControll-dummy.m */; };
 		AF6D4CAA9C804C3641240BC9CC201870 /* CircularPageControll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE4D894B866276C5CA5F9312DAEB4A0 /* CircularPageControll-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B0C8C72224F51611827A124B64BAD552 /* Pods-CircularPageControll_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E112EA76349B1B2EF71C2847ED0289D4 /* Pods-CircularPageControll_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B167E1F0B81ECDD30F155E326B4B0151 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5835B59DCB6B99AFC73CB73F183F1 /* CustomView.swift */; };
+		B167E1F0B81ECDD30F155E326B4B0151 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5835B59DCB6B99AFC73CB73F183F1 /* PageViewController.swift */; };
 		B1F60C035EB058C1597462D5FA4E59DD /* Pods-CircularPageControll_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EB79E1215D4E0BE7438AA1D570FB6 /* Pods-CircularPageControll_Tests-dummy.m */; };
 		DEAFD209AC51B92DFDB3EB43708B1980 /* Pods-CircularPageControll_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA553C84F58D4212ABB865A8398FB /* Pods-CircularPageControll_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -38,25 +37,24 @@
 		07BCA553C84F58D4212ABB865A8398FB /* Pods-CircularPageControll_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircularPageControll_Example-dummy.m"; sourceTree = "<group>"; };
 		0FC07CDC3161FAE1B1DBC2391126C413 /* Pods-CircularPageControll_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularPageControll_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		165A095C00151554D46F23AFBA483E07 /* Pods-CircularPageControll_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircularPageControll_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A7C736B9E72543E7AA583DF9E235315 /* libPods-CircularPageControll_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CircularPageControll_Example.a"; path = "libPods-CircularPageControll_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2957A2A3F88C1C57C4050F88FD9BFAFF /* libCircularPageControll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCircularPageControll.a; path = libCircularPageControll.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		38E4647576512C28D141BE6ED6DA6DD8 /* CircularPageControll.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CircularPageControll.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A7C736B9E72543E7AA583DF9E235315 /* libPods-CircularPageControll_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircularPageControll_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2957A2A3F88C1C57C4050F88FD9BFAFF /* libCircularPageControll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCircularPageControll.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E4647576512C28D141BE6ED6DA6DD8 /* CircularPageControll.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CircularPageControll.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B7112662F7699AFDA299943A50D89E9 /* CircularPageControll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircularPageControll.modulemap; sourceTree = "<group>"; };
-		45707CAD0359530D1BB2E7FC9A375192 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		45707CAD0359530D1BB2E7FC9A375192 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4AD17F782AF09EBD46CF0A507B0024F0 /* Pods-CircularPageControll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B4FA6AB174B2EDF098DF4CAEC9595A8 /* CircularPageControll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularPageControll-prefix.pch"; sourceTree = "<group>"; };
 		4BE4D894B866276C5CA5F9312DAEB4A0 /* CircularPageControll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularPageControll-umbrella.h"; sourceTree = "<group>"; };
 		774B9DFEAB6ACBB1FAABF30FF647A57E /* Pods-CircularPageControll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C80D1E91AFD3B9DD664B937531E52AD /* libPods-CircularPageControll_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CircularPageControll_Tests.a"; path = "libPods-CircularPageControll_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED5835B59DCB6B99AFC73CB73F183F1 /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = Source/CustomView.swift; sourceTree = "<group>"; };
+		7C80D1E91AFD3B9DD664B937531E52AD /* libPods-CircularPageControll_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircularPageControll_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED5835B59DCB6B99AFC73CB73F183F1 /* PageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = Source/PageViewController.swift; sourceTree = "<group>"; };
 		7F19799BCC8BDE07A6F230056C903385 /* Pods-CircularPageControll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A664451FBC32D7E6E149DC93A76D647 /* Pods-CircularPageControll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircularPageControll_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D7E4EE0F9A30C7A342883A046D4A991 /* CircularPageControll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircularPageControll-dummy.m"; sourceTree = "<group>"; };
 		99B532AE809857FBD8BE37C5B590131B /* Pods-CircularPageControll_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircularPageControll_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DCCEC6FEDCEDE915F52674D615746B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCCEC6FEDCEDE915F52674D615746B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AB2EB79E1215D4E0BE7438AA1D570FB6 /* Pods-CircularPageControll_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircularPageControll_Tests-dummy.m"; sourceTree = "<group>"; };
-		AEF59F223D4F7570D16D2AAD7AD711A1 /* NewCustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NewCustomView.swift; path = Source/NewCustomView.swift; sourceTree = "<group>"; };
 		C0BCC22E3B740541EDA1E729A535F384 /* CircularPageControll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircularPageControll.xcconfig; sourceTree = "<group>"; };
 		E112EA76349B1B2EF71C2847ED0289D4 /* Pods-CircularPageControll_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircularPageControll_Example-umbrella.h"; sourceTree = "<group>"; };
 		E3B03A0E9C6173DBB9D2F6B27D6111EC /* Pods-CircularPageControll_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircularPageControll_Example.modulemap"; sourceTree = "<group>"; };
@@ -186,8 +184,7 @@
 		F8291EA098A76893859AE0F65A528AD9 /* CircularPageControll */ = {
 			isa = PBXGroup;
 			children = (
-				7ED5835B59DCB6B99AFC73CB73F183F1 /* CustomView.swift */,
-				AEF59F223D4F7570D16D2AAD7AD711A1 /* NewCustomView.swift */,
+				7ED5835B59DCB6B99AFC73CB73F183F1 /* PageViewController.swift */,
 				05C26C633FB3AD0FDEBAE679CCFB62E5 /* Pod */,
 				1FFB5E70D4B7E7C94587D3106BD9B3DF /* Support Files */,
 			);
@@ -347,8 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				774C0910872BBB868B6B7698DE1BD0B3 /* CircularPageControll-dummy.m in Sources */,
-				B167E1F0B81ECDD30F155E326B4B0151 /* CustomView.swift in Sources */,
-				31D7D0131A4FB26258D3DA1D9E537C6B /* NewCustomView.swift in Sources */,
+				B167E1F0B81ECDD30F155E326B4B0151 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,8 +495,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

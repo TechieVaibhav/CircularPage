@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1121B06BC094820BA8737520 /* libPods-CircularPageControll_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0A15BC5001086B59F0DD58 /* libPods-CircularPageControll_Tests.a */; };
+		55FEF82A232F7ABB0084F06F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEF829232F7ABB0084F06F /* FirstViewController.swift */; };
+		55FEF82C232F7AD40084F06F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEF82B232F7AD40084F06F /* SecondViewController.swift */; };
+		55FEF82E232F7AEC0084F06F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEF82D232F7AEC0084F06F /* ThirdViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		2C0A15BC5001086B59F0DD58 /* libPods-CircularPageControll_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircularPageControll_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		395D50F9014623884D1E0DB2 /* libPods-CircularPageControll_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircularPageControll_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A40DB6236C0246D13585274 /* Pods-CircularPageControll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularPageControll_Tests.release.xcconfig"; path = "Target Support Files/Pods-CircularPageControll_Tests/Pods-CircularPageControll_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55FEF829232F7ABB0084F06F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		55FEF82B232F7AD40084F06F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		55FEF82D232F7AEC0084F06F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CircularPageControll_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularPageControll_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55FEF82B232F7AD40084F06F /* SecondViewController.swift */,
+				55FEF829232F7ABB0084F06F /* FirstViewController.swift */,
+				55FEF82D232F7AEC0084F06F /* ThirdViewController.swift */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -312,6 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FEF82C232F7AD40084F06F /* SecondViewController.swift in Sources */,
+				55FEF82A232F7ABB0084F06F /* FirstViewController.swift in Sources */,
+				55FEF82E232F7AEC0084F06F /* ThirdViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
