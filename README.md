@@ -1,7 +1,7 @@
 
 # CircularPageControll
 
-![](https://github.com/TechieVaibhav/CircularPage/blob/master/Screen%20Recording%202020-04-22%20at%2012.13.53%20PM.mov)
+![](https://github.com/TechieVaibhav/CircularPage/blob/master/Screen%20Recording%202020-04-22%20at%2012.13.53%20PM.gif)
 
 ## Example
 
