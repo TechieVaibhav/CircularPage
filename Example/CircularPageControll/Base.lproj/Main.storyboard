@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -98,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.66557168960571289" green="0.62784626042336011" blue="0.10904367060347098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.19986087328767124" green="0.4591181506849315" blue="0.39902611301369861" alpha="0.55599850171232879" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="c37-5H-jh4" firstAttribute="centerX" secondItem="VCB-as-JFO" secondAttribute="centerX" id="805-6D-gxQ"/>
                             <constraint firstItem="c37-5H-jh4" firstAttribute="centerY" secondItem="VCB-as-JFO" secondAttribute="centerY" id="W9O-H8-1hV"/>
@@ -136,7 +134,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.52062402766792193" blue="0.31795375537302417" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.86435145547945202" green="0.9845890410958904" blue="0.86296018835616439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="jPI-Fh-obM" firstAttribute="centerX" secondItem="Vi3-ms-hEE" secondAttribute="centerX" id="EiK-x9-GUw"/>
                             <constraint firstItem="jPI-Fh-obM" firstAttribute="centerY" secondItem="Vi3-ms-hEE" secondAttribute="centerY" id="W3n-AV-vRY"/>

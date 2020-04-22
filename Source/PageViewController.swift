@@ -43,7 +43,7 @@ class PageViewController: UIPageViewController
         super.viewDidLayoutSubviews()
         for view in self.view.subviews {
             if view is UIPageControl {
-                view.backgroundColor  = UIColor.red
+                view.backgroundColor  = UIColor.red.withAlphaComponent(0.9)
             }
         }
     }
